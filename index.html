@@ -30,11 +30,11 @@ body, html {
   body {
       position: relative; 
   }
-  #section1 {padding-top:50px;height:400px;color: #fff; background-color: #111111;}
+  #section1 {padding-top:50px;height:300px;color: #fff; background-color: #111111;}
   #section2 {padding-top:50px;height:600px;color: #fff; background-color: #111111;}
-  #section3 {padding-top:50px;height:400px;color: #fff; background-color: #111111;}
-  #section4 {padding-top:50px;height:400px;color: #fff; background-color: #111111;}
-  #section5 {padding-top:50px;height:400px;color: #fff; background-color: #009688;}
+  #section3 {padding-top:50px;height:300px;color: #fff; background-color: #111111;}
+  #section4 {padding-top:50px;height:300px;color: #fff; background-color: #111111;}
+  #section5 {padding-top:50px;height:300px;color: #fff; background-color: #009688;}
   
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
   position: relative;
@@ -98,7 +98,7 @@ h3 {
 }
 
 .navbar {
-  background-color: rgba(215, 141, 80, 0.9);
+  background-color: rgba(250, 196, 142, 0.85);
   color: inherit;
 }
     background: transparent;
@@ -108,7 +108,7 @@ h3 {
 
  .navbar-default .navbar-nav > .active{
     color: #000;
-   background: rgba(106, 44, 135, 0.);;
+   background: rgba(106, 44, 135, 0.);
  }
  .navbar-default .navbar-nav > .active > a, 
  .navbar-default .navbar-nav > .active > a:hover, 
@@ -121,11 +121,15 @@ h3 {
   color: #232222;
 }
  
+.navbar-nav>li, .navbar-nav {
+  float: left !important;
+}
+
 </style>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="100">
 
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-bottom">
   <div class="container-fluid">
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -133,7 +137,7 @@ h3 {
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#"><b>Hattendo Sound</b></a>
+      <a class="navbar-brand" href="#"><b>Hattendo</b></a>
     </div>
     <div>
       <div class="collapse navbar-collapse" id="myNavbar">
