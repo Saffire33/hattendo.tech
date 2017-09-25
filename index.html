@@ -34,7 +34,7 @@ body, html {
   #section2 {padding-top:50px;height:600px;color: #fff; background-color: #111111;}
   #section3 {padding-top:50px;height:400px;color: #fff; background-color: #111111;}
   #section4 {padding-top:50px;height:400px;color: #fff; background-color: #111111;}
-  #section42 {padding-top:50px;height:400px;color: #fff; background-color: #009688;}
+  #section5 {padding-top:50px;height:400px;color: #fff; background-color: #009688;}
   
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
   position: relative;
@@ -97,12 +97,35 @@ h3 {
     }
 }
 
+.navbar {
+  background-color: rgba(215, 141, 80, 0.9);
+  color: inherit;
+}
+    background: transparent;
+  }
+  
+  .navbar li { color: #000 }
 
+ .navbar-default .navbar-nav > .active{
+    color: #000;
+   background: rgba(106, 44, 135, 0.);;
+ }
+ .navbar-default .navbar-nav > .active > a, 
+ .navbar-default .navbar-nav > .active > a:hover, 
+ .navbar-default .navbar-nav > .active > a:focus {
+      color: #000;
+      background: rgba(106, 44, 135, 0.3);;
+ }
+
+.navbar-default .navbar-brand {
+  color: #232222;
+}
+ 
 </style>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="100">
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -110,25 +133,23 @@ h3 {
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Hattendo Sound</a>
+      <a class="navbar-brand" href="#"><b>Hattendo Sound</b></a>
     </div>
     <div>
       <div class="collapse navbar-collapse" id="myNavbar">
+	  
         <ul class="nav navbar-nav">
-          <li><a href="#section1">About</a></li>
-          <li><a href="#section2">Examples</a></li>
-          <li><a href="#section3">Sound Design</a></li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#section41">E-mail</a></li>
-              <li><a href="#section42">Message</a></li>
-            </ul>
-          </li>
+          <li><a href="#section1"><img src="image/png/glyphicons-18-music.png"/></a></li>
+          <li><a href="#section2"><img src="image/png/glyphicons-9-film.png"/></a></li>
+          <li><a href="#section3"><img src="image/png/glyphicons-195-question-sign.png"/></a></li>
+		  <li><a href="#section4"><img src="image/png/glyphicons-130-message-new.png"/></a></li>
+
         </ul>
       </div>
     </div>
   </div>
 </nav>  
+
 
 <div class="bgimg-1">
   <div class="caption">
