@@ -6,17 +6,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/mp3-player-button.css" />
-    <script src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/soundmanager2.js"></script>
-	<script type="text/javascript" src="js/mp3-player-button.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script>
-soundManager.setup({
-  // required: path to directory containing SM2 SWF files
-  url: 'swf/'
-});
-</script>
+  <link rel="stylesheet" type="text/css" href="css/mp3-player-button.css">
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/soundmanager2.js"></script>
+  <script type="text/javascript" src="js/mp3-player-button.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+	soundManager.setup({
+	  // required: path to directory containing SM2 SWF files
+	  url: 'swf/'
+	});
+  </script>
 
 
 <style>
@@ -30,7 +31,7 @@ body, html {
       position: relative; 
   }
   #section1 {padding-top:50px;height:400px;color: #fff; background-color: #111111;}
-  #section2 {padding-top:50px;height:400px;color: #fff; background-color: #111111;}
+  #section2 {padding-top:50px;height:600px;color: #fff; background-color: #111111;}
   #section3 {padding-top:50px;height:400px;color: #fff; background-color: #111111;}
   #section4 {padding-top:50px;height:400px;color: #fff; background-color: #111111;}
   #section42 {padding-top:50px;height:400px;color: #fff; background-color: #009688;}
@@ -159,17 +160,15 @@ h3 {
 
 <div id="section2" class="container-fluid">
 	<div style="position:relative;">
-	  <div style="color:#ddd;background-color:#282E34;text-align:left;padding:50px 80px;text-align: justify;">
-
-	  <h3 style="text-align:left;color: #ffffff"><b>examples</b></h3>
-	  
+	  <div style="color:#ddd;background-color:#282E34;text-align:left;padding:50px 80px;text-align: left;">
+	    
+	    <h3 style="text-align:left;color: #ffffff"><b>examples</b></h3>
+		<div class="col-sm-4">
 		Downloads available for personal use.
 		<br>
-		<div class="col-sm-3">
+		<p>
 		Support future works via <a>Patreon</a>.
 		<br>
-		<br>
-		 
 		<h6>*Please <a>contact</a> for further uses and inquiries.</h6></div>
 		</p>
 		<div class="col-sm-3">
@@ -177,10 +176,12 @@ h3 {
 
 		<p><a href="assets/Articetek.mp3" class="sm2_button">Articetek</a> Articetek</p>
 		</div>
+		<div class="col-sm-5">
 		<p><a href="assets/Light Fantastic.mp3" class="sm2_button">Light Fantastic</a> Light Fantastic</p>
 
 		<p><a href="assets/Urgent Memories.mp3" class="sm2_button">Urgent Memories</a> Urgent Memories</p>
-		
+		</div>
+		<br><br><br><br>
 	  </div>
 	</div>
 	
