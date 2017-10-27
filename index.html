@@ -2,16 +2,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Hattendo Sound</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hattendo Sound</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/mp3-player-button.css">
-  <script src="js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/mp3-player-button.css">
   <script type="text/javascript" src="js/soundmanager2.js"></script>
   <script type="text/javascript" src="js/mp3-player-button.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
   <script>
 	soundManager.setup({
 	  // required: path to directory containing SM2 SWF files
@@ -27,14 +27,14 @@ body, html {
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
 }
-  body {
-      position: relative; 
-  }
-  #section1 {padding-top:50px;height:300px;color: #fff; background-color: #111111;}
-  #section2 {padding-top:50px;height:600px;color: #fff; background-color: #111111;}
-  #section3 {padding-top:50px;height:300px;color: #fff; background-color: #111111;}
-  #section4 {padding-top:50px;height:300px;color: #fff; background-color: #111111;}
-  #section5 {padding-top:50px;height:300px;color: #fff; background-color: #009688;}
+body {
+    position: relative; 
+}
+#section1 {padding-top:25px;height:auto;width:100%;color: #fff; background-color: #111111;}
+#section2 {padding-top:25px;height:auto;width:100%;color: #fff; background-color: #111111;}
+#section3 {padding-top:25px;height:auto;width:100%;color: #fff; background-color: #111111;}
+#section4 {padding-top:25px;height:auto;width:100%;color: #fff; background-color: #111111;}
+#section5 {padding-top:25px;height:auto;width:100%;color: #fff; background-color: #009688;}
   
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
   position: relative;
@@ -90,12 +90,12 @@ h3 {
   color: #111;
 }
 
-/* Turn off parallax scrolling for tablets and phones */
+/* Turn off parallax scrolling for tablets and phones 
 @media only screen and (max-device-width: 512px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
         background-attachment: scroll;
     }
-}
+}*/
 
 .navbar {
   background-color: rgba(250, 196, 142, 0.85);
@@ -129,18 +129,13 @@ h3 {
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="100">
 
-<nav class="navbar navbar-default navbar-fixed-bottom">
+ <nav class="navbar navbar-default navbar-fixed-bottom">
   <div class="container-fluid">
     <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#"><b>Hattendo</b></a>
+
+
     </div>
-    <div>
-      <div class="collapse navbar-collapse" id="myNavbar">
+    <div id="myNavbar">
 	  
         <ul class="nav navbar-nav">
           <li><a href="#section1"><img src="image/png/glyphicons-18-music.png"/></a></li>
@@ -149,7 +144,6 @@ h3 {
 		  <li><a href="#section4"><img src="image/png/glyphicons-130-message-new.png"/></a></li>
 
         </ul>
-      </div>
     </div>
   </div>
 </nav>  
@@ -161,55 +155,45 @@ h3 {
   </div>
 </div>
 
-<div id="section1" class="container-fluid">
-<div style="color: #777;background-color:#282E34;text-align:left;padding:50px 80px;text-align: justify;">
-  <h3 style="text-align:left;color: #ffffff"><b>stuff</b></h3>
-  <p style="text-align:left;color: #cecece">
-  <b>Hattendo Sound 2017
-  <br>
-  <a>Contact</a>
-  <br>
-
-  Support via Patreon
-  </b>
-  </p>
-  
+<div  id="section1" class="container-fluid">
+	<div style="position:relative;">
+		<div style="color: #777;background-color:#282E34;text-align:left;padding:50px 50px;text-align: justify;">
+		      <h3 style="text-align:left;color: #ffffff"><b>stuff</b></h3>
+			  <p style="text-align:left;color: #cecece">
+			  <b>Hattendo Sound 2017
+			  <br>
+			  <a>Contact</a>
+			  <br>
+			  Support via Patreon
+			 </b>
+			 </p>	
+	</div>
+	</div>									
 </div>
-
-</div>
+	
 <div class="bgimg-2">
   <div class="caption">
-    <span class="border" style="background-color:transparent;font-size:25px;color: #141414;"><b><b/></span>
+	  <span class="border" style="background-color:transparent;font-size:25px;color: #141414;"><b></b></span>
   </div>
 </div>
 
-<div id="section2" class="container-fluid">
+<div id="section2" class="container-fluid" >
 	<div style="position:relative;">
-	  <div style="color:#ddd;background-color:#282E34;text-align:left;padding:50px 80px;text-align: left;">
-	    
-	    <h3 style="text-align:left;color: #ffffff"><b>examples</b></h3>
-		<div class="col-sm-4">
-		Downloads available for personal use.
-		<br>
-		<p>
-		Support future works via <a>Patreon</a>.
-		<br>
-		<h6>*Please <a>contact</a> for further uses and inquiries.</h6></div>
-		</p>
-		<div class="col-sm-3">
-		<p><a href="assets/Here It Is.mp3" class="sm2_button">Here It Is</a> Here It Is</p>
-
-		<p><a href="assets/Articetek.mp3" class="sm2_button">Articetek</a> Articetek</p>
+		<div style="color:#ddd;background-color:#282E34;text-align:left;padding:50px 50px;text-align: left;">
+	    			<h3 style="text-align:left;color: #ffffff"><b>examples</b></h3>
+			<div class="col-sm-4">Downloads available.
+					<h6>*Please <a>contact</a> for info.</h6>
+		    </div>
+				<div class="col-sm-3">
+					<p><a href="assets/Here It Is.mp3" class="sm2_button">Here It Is</a> Here It Is</p>
+					<p><a href="assets/Articetek.mp3" class="sm2_button">Articetek</a> Articetek</p>
+				</div>
+			<div class="col-sm-5">
+					<p><a href="assets/Light Fantastic.mp3" class="sm2_button">Light Fantastic</a> Light Fantastic</p>
+					<p><a href="assets/Urgent Memories.mp3" class="sm2_button">Urgent Memories</a> Urgent Memories</p>
+			</div><br><br>
 		</div>
-		<div class="col-sm-5">
-		<p><a href="assets/Light Fantastic.mp3" class="sm2_button">Light Fantastic</a> Light Fantastic</p>
-
-		<p><a href="assets/Urgent Memories.mp3" class="sm2_button">Urgent Memories</a> Urgent Memories</p>
-		</div>
-		<br><br><br><br>
-	  </div>
 	</div>
-	
 </div>
 
 <div class="bgimg-3">
@@ -221,8 +205,8 @@ h3 {
 
 <div id="section3" class="container-fluid">
 <div style="position:relative;">
-  <div style="color:#ddd;background-color:#282E34;text-align:left;padding:50px 80px;text-align: justify;">
-  <h3 style="text-align:left;color: #ffffff"><b>Coming Soon</b></h3>
+  <div style="color:#ddd;background-color:#282E34;text-align:left;padding:50px 50px;text-align: justify;">
+  <h3 style="text-align:left;color: #ffffff"><b>About</b></h3>
     <p>Other stuffs</p>
   </div>
 </div>
@@ -237,16 +221,17 @@ h3 {
 
 <div id="section4" class="container-fluid">
 <div style="position:relative;">
-  <div style="color:#ddd;background-color:#282E34;text-align:left;padding:50px 80px;text-align: justify;">
-  <h3 style="text-align:left;color: #ffffff"><b>Coming Soon</b></h3>
-    <p>More stuffs</p>
+  <div style="color:#ddd;background-color:#282E34;text-align:left;padding:50px 50px;text-align: justify;">
+  <h3 style="text-align:left;color: #ffffff"><b>Contact</b></h3>
+    <p>Email: <a>Johnners91@gmail.com</a><br>
+	Support via <a>Patreon</a>.</p>
   </div>
 </div>
 </div>
 
 <div class="bgimg-1">
   <div class="caption">
-    <span class="border">THANK YOU AND ENJOY</span>
+    <span class="border">THANK YOU</span>
   </div>
 </div>
 
@@ -278,6 +263,80 @@ $(document).ready(function(){
   });
 });
 </script>
-  
+<script>
+    $(document).ready(function(){
+
+  var player = SC.Widget($('iframe.sc-widget')[0]);
+  var pOffset = $('.player').offset();
+  var pWidth = $('.player').width();
+  var scrub;
+
+  player.bind(SC.Widget.Events.READY, function() {
+    setInfo();
+    player.play();
+  }); //Set info on load
+
+  player.bind(SC.Widget.Events.PLAY_PROGRESS, function(e) {
+    if( e.relativePosition < 0.003 ) { setInfo(); }
+    //Event listener when track is playing
+    $('.position').css('width', ( e.relativePosition*100)+"%");
+  });
+
+   $('.player').mousemove(function(e){ //Get position of mouse for scrubbing
+    scrub = (e.pageX-pOffset.left);
+  });
+
+  $(document).on('keydown', function(e){
+    switch(e.keyCode){
+      case 32:
+        player.toggle(); 
+      break;
+      case 39:
+        player.next();
+      break;
+      case 37:
+        player.prev();
+      break;
+    }
+  });
+
+  $('.player').click(function(){ //Use the position to seek when clicked
+    $('.position').css('width',scrub+"px");
+    var seek = player.duration*(scrub/pWidth); 
+
+    //Seeking to the start would be a previous?
+    if ( seek < player.duration * .05 ) {
+      player.prev();
+    } else if ( seek > player.duration * .99 ) {
+      player.next();
+    } else {      
+      player.seekTo(seek);
+    }
+
+  });
+
+   function setInfo() {
+    player.getCurrentSound(function(song) {
+      console.log(song);
+
+      $('.waveform').css('background-image', "url('" + song.waveform_url + "')");    
+      $('.player').css('background-image', "url('" + song.artwork_url.replace('-large', '-t500x500') + "')");
+
+      var info = song.title;
+      $('.info').html(info);
+
+      player.current = song;
+    });
+
+    player.getDuration(function(value){
+      player.duration = value;
+    });
+
+    player.isPaused(function(bool){
+      player.getPaused = bool;
+    });
+  }   
+
+});</script>
 </body>
 </html>
